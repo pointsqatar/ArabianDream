@@ -102,12 +102,80 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\ionicons.min.css" />
+    <Content Include="css\jquery.fancybox.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="css\owl.theme.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\slider.css" />
+    <Content Include="fonts\ionicons.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\about\about-company.jpg" />
+    <Content Include="images\about\about.jpg" />
+    <Content Include="images\author\about.jpg" />
+    <Content Include="images\author\author-bg.jpg" />
+    <Content Include="images\author\author.jpg" />
+    <Content Include="images\avater-1.jpg" />
+    <Content Include="images\avater-2.jpg" />
+    <Content Include="images\avater.jpg" />
+    <Content Include="images\blog\post-1.jpg" />
+    <Content Include="images\blog\post-2.jpg" />
+    <Content Include="images\blog\post-3.jpg" />
+    <Content Include="images\clients\logo-1.jpg" />
+    <Content Include="images\clients\logo-2.jpg" />
+    <Content Include="images\clients\logo-3.jpg" />
+    <Content Include="images\clients\logo-4.jpg" />
+    <Content Include="images\clients\logo-5.jpg" />
+    <Content Include="images\icons\close.png" />
+    <Content Include="images\icons\i_next.png" />
+    <Content Include="images\icons\i_prev.png" />
+    <Content Include="images\icons\left.png" />
+    <Content Include="images\icons\map-marker.png" />
+    <Content Include="images\icons\next.png" />
+    <Content Include="images\icons\prev.png" />
+    <Content Include="images\icons\quotes.png" />
+    <Content Include="images\icons\right.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\Marbles\marbel1.jpg" />
+    <Content Include="images\Marbles\marbel2.jpg" />
+    <Content Include="images\Marbles\marbel3.jpg" />
+    <Content Include="images\Marbles\marbel4.jpg" />
+    <Content Include="images\Marbles\marbel5.jpg" />
+    <Content Include="images\Marbles\marbel6.jpg" />
+    <Content Include="images\portfolio\item-1.jpg" />
+    <Content Include="images\portfolio\item-2.jpg" />
+    <Content Include="images\portfolio\item-3.jpg" />
+    <Content Include="images\portfolio\item-4.jpg" />
+    <Content Include="images\portfolio\item-5.jpg" />
+    <Content Include="images\portfolio\item-6.jpg" />
+    <Content Include="images\portfolio\post-1.jpg" />
+    <Content Include="images\Projects\Project-1.jpg" />
+    <Content Include="images\Projects\Project-2.jpg" />
+    <Content Include="images\Projects\Project-3.jpg" />
+    <Content Include="images\slider.jpg" />
+    <Content Include="images\Slider_1.jpg" />
+    <Content Include="images\team.jpg" />
+    <Content Include="images\team\team-1.jpg" />
+    <Content Include="images\team\team-2.jpg" />
+    <Content Include="images\team\team-3.jpg" />
+    <Content Include="images\team\team-4.jpg" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery.fancybox.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\owl.carousel.min.js" />
+    <Content Include="js\slider.js" />
+    <Content Include="js\vendor\modernizr-2.6.2.min.js" />
+    <Content Include="js\wow.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -116,6 +184,19 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="fonts\ionicons.eot" />
+    <Content Include="fonts\ionicons.ttf" />
+    <Content Include="fonts\ionicons.woff" />
+    <Content Include="less\main.less" />
+    <Content Include="less\responsive.less" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Services.cshtml" />
+    <Content Include="Views\Home\Gallery.cshtml" />
+    <Content Include="Views\Home\Projects.cshtml" />
+    <Content Include="Views\Home\ContactUs.cshtml" />
+    <None Include="Properties\PublishProfiles\pointsqatar-templates - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -125,7 +206,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
